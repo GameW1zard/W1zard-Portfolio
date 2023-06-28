@@ -18,13 +18,13 @@ function Homepage () {
     When Away from Keyboard, I enjoy skateboarding, driving my Mustang, and using my GoPro to capture the best views. Camping is always good as long as I can bring some internet with me. If it's raining, my console collection wall where I have repaired almost every available console, and some no longer available. is always at the ready.`
 
     return ( 
-        <div className="container text-center " style={{backgroundColor: "#2CECA8", height: '90vh',}}>
-        <div className="content row">
-        <div className="col" style={{height: '90vh'}}>
+        <div className="container text-center d-flex flex-grow-1" style={{backgroundColor: "#2CECA8", height: '1500px',}}>
+        <div className="content row d-flex flex-grow-1">
+        <div className="col d-flex flex-grow-1" style={{height: '1500px'}}>
         <div>
             <img id="hat" src={logo} alt="homepage" />
             <h1>{text}</h1>
-            <p className="" style={{fontSize: '21px'}}>{about}</p>
+            <p className="" style={{fontSize: '25px'}}>{about}</p>
         </div>
         </div>
         </div>
