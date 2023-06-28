@@ -16,7 +16,7 @@
        
  
  ## Installation 
- its a web page open it [here](https://github.com/GameW1zard)
+ its a web page open it [here](https://wizportfolio-8642b001ae7c.herokuapp.com/)
  
  ## Usage 
  to see my skills
