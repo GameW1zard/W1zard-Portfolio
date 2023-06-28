@@ -1,46 +1,49 @@
 import React from "react";
 
 function Resume () {
-    const text = `Riven Loya
-    8232 Canoga Ave
-    Austin, TX 78724
-    (512) 767-8499  rivenloya@gmail.com
-    
-    EDUCATION
-    
-    University of Texas		Graduate			July 2023
-    Coding BootCamp
-    ⦁	26 week intensive course 
-    ⦁	Instruction in JavaScript. HTML, CSS, Bootstrap, MySQL, MongoDB, IndexDB, React, Express JS, Mern Stack, Handlebars
-    ⦁	Tools used: GetHub, GetLab, VS code
-    ⦁	Projects include front end and back end coding, calling API's, and design elements
-    
-    Skills and Knowledge
-    ⦁	Hardware repair and building
-    ⦁	Netwokring and server management
-    ⦁	Full stack web development with an expertise on backend development
-    
-    Programs and coding languages
-    
-    Linux, Windows, JavaScript,  MySQL, MongoDB, Express, Unity, Blender, VC
-    
-    Experience
-    
-    Computer Repair Tech	Independent Contractor 	2013-present
-    
-    ⦁	Served as first line customer point of contact for repair orders. Routed and scheduled repair orders.
-    ⦁	Repaired Computers, Phones, and Tablets including troubleshooting software/app issues and replacing cracked screens
-    ⦁	Configuring software to be compatible with hardware such as Raspberry Pi and web cams to monitor locations over the internet and hand build component housings in wood and plastic
-    ⦁	Minor audio system installation requiring wire splicing, using hand tools such as wireless drills and screwdrivers to install component
-    ⦁	Virtual Reality room installation
-    
-    
-    Game W1zard Crafts 		Owner 				2014-2015
-    ⦁	Designed, Crafted, Marketed unique pieces using laser cutters, 3-D printers and various design programs
-    ⦁	Managed Customer Interactions from design to point of sale
-    ⦁	Managed a team of 3 employees`;
+    return (
+        <div className="container text-center d-flex flex-grow-1" style={{backgroundColor: "#2CECA8", height: "100vh", }}>
+        <div className="content row mx-5">
+        <div className="" style={{height: "100vh"}}>
+        <div>
+            <ul className="list-group my-3">
+            <li className="list-group-item"><h4>Software skills</h4></li>
+                <li className="list-group-item">JavaScript</li>
+                <li className="list-group-item">Css</li>
+                <li className="list-group-item">MySQL</li>
+                <li className="list-group-item">MongoDB</li>
+                <li className="list-group-item">React</li>
+                <li className="list-group-item">ExpressJS</li>
+                <li className="list-group-item">Unity</li>
+                <li className="list-group-item">Blender</li>                
+            </ul>
+            <ul className="list-group my-3">
+            <li className="list-group-item"><h4>Hardware skills</h4></li>
+                <li className="list-group-item">Vintage electronics repair</li>
+                <li className="list-group-item">CUstom Pc building</li>
+                <li className="list-group-item">Game Console repair</li>
+                <li className="list-group-item">Phone repair</li>               
+            </ul>
 
-    return <p>{text}</p>;
+        </div>
+        </div>
+        </div>
+        <div className="content row mx-5">
+        <div className="col-sm-" style={{height: "100vh"}}>
+        <div>
+            <ul className="list-group my-3">
+                <li className="list-group-item"><h4>Network skills</h4></li>
+                <li className="list-group-item">Server management</li>
+                <li className="list-group-item">Virtualization</li>
+                <li className="list-group-item">Hardware confiuration</li>
+                <li className="list-group-item">Hardware</li>                
+            </ul>
+            <a href="https://drive.google.com/file/d/1OKoZLMOcVwhqQOWY8HciPwCYZKyOY6i-/view?usp=sharing" className="btn btn-primary my-3">Download resume here!</a>
+        </div>
+        </div>
+        </div>
+        </div>
+    )
 }
 
 export default Resume;

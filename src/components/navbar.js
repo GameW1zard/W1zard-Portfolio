@@ -23,7 +23,7 @@ const resumebutton = function () {
     <nav className="navbar navbar-expand-lg navbar-light justify-content-between" style={{backgroundColor: "#7A508F"}}>
         <h1>W1zard's Portfolio</h1>
         <div className="links">
-            <button className="btn btn-outline-dark mx-1" style={{backgroundColor: "#17e8e3"}} type="button" onClick={homebutton}>Home</button>
+            <button className="btn btn-outline-dark mx-1" style={{backgroundColor: "#17e8e3"}} type="button" onClick={homebutton}>About me</button>
             <button className="btn btn-outline-dark mx-1" style={{backgroundColor: "#17e8e3"}} type="button" onClick={portfoliobutton}>Portfolio</button>
             <button className="btn btn-outline-dark mx-1" style={{backgroundColor: "#17e8e3"}} type="button" onClick={contactbutton}>Contact</button>
             <button className="btn btn-outline-dark mx-1" style={{backgroundColor: "#17e8e3"}} type="button" onClick={resumebutton}>Resume</button>
