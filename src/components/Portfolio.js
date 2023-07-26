@@ -4,6 +4,7 @@ import placeholder from "../assets/images/placeholder.jpg"
 import GamerLi from "../assets/images/GamerLi.png"
 import youtube from "../assets/images/youtube.png"
 import Project from "./project";
+import pet from "../assets/images/pet.png"
 const hatbot = {
     name: "HatBot",
     description: "A friendly little bot to manage my discord and twitch! Integrated with GamerLi!",
@@ -24,6 +25,13 @@ const Minecraft = {
     image: youtube,
     link: "https://youtu.be/L7qQ9NSZG_c",
     btntxt : "Watch the video!"
+}
+const petgpt = {
+    name: "Pet-GPT",
+    description: "A GPT-3 based pet suggestion bot",
+    image: pet,
+    link: "https://pet-matcher1-248c77335236.herokuapp.com/",
+    btntxt : "Adopt Now!"
 }
 const placeholdercard = {
     name: "Coming Soon",
@@ -49,7 +57,7 @@ function Portfolio () {
 
     <div className="container text-center " style={{backgroundColor: "#2CECA8", height: '700px',}}>
         <div className="row flex-grow-1">
-            <Project {...placeholdercard} />
+            <Project {...petgpt} />
             <Project {...placeholdercard} />
             <Project {...placeholdercard} />
     </div>
